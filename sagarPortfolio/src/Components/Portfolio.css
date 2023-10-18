@@ -1,0 +1,599 @@
+
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightseagreen;
+    padding: 1rem;
+    color: #fff;
+  }
+header:hover{
+    background-color:#e17055
+}
+  
+  .logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: black; /* Set the initial color */
+  }
+  
+  logo span {
+    color: blue; /* Set the color of the span within the logo */
+  }
+  
+  .logo:hover {
+    color:greenyellow; /* Change the color on hover */
+  }
+  
+  .navbar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+  }
+  
+  .follow {
+    display: flex;
+  }
+  
+  .follow a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+  }
+  
+
+  /* Add your CSS styles here */
+.content {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(26, 131, 218, 0.1);
+  }
+  
+  .content h3 {
+    font-size: 24px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .box {
+    width: calc(50% - 10px); /* 10px gap between boxes */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+  }
+  
+  .box:last-child {
+    margin-right: 0;
+  }
+  
+  .box p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .box p span {
+    font-weight: bold;
+  }
+
+  /* Apply styles to the skills section */
+.heading {
+    font-size: 24px;
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .skills {
+    width: 50%;
+  }
+  
+  .progress {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .progress h3 {
+    flex: 1;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .progress span {
+    flex: 1;
+    font-weight: normal;
+  }
+  
+  .bar {
+    flex: 3;
+    height: 10px;
+    background: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .bar span {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Customize the progress bar colors based on the percentage */
+  .progress:nth-child(1) .bar span {
+    width: 50%;
+    background: #007bff; /* Blue color */
+  }
+  
+  .progress:nth-child(2) .bar span {
+    width: 50%;
+    background: #00b894; /* Teal color */
+  }
+  
+  .progress:nth-child(3) .bar span {
+    width: 20%;
+    background: #e17055; /* Reddish color */
+  }
+  
+  /* Apply styles to the about section */
+.about {
+    background-color: #f9f9f9; /* Background color */
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .heading span {
+    color: #007bff; /* Blue color for "me" */
+  }
+  
+  .row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    flex: 1;
+    margin: 20px;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .content {
+    flex: 1;
+    text-align: left;
+    margin: 20px;
+  }
+  
+  .content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the box containers */
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .box {
+    flex: 1;
+    text-align: left;
+    padding: 15px;
+    background: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .box p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  /* Apply styles to the skills section */
+  .skills {
+    margin-top: 40px;
+  }
+  
+  /* Style the individual progress bars */
+  .progress {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+  }
+  
+  .progress h3 {
+    flex: 2;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .progress span {
+    flex: 1;
+    font-weight: normal;
+    text-align: right;
+  }
+  
+  .bar {
+    flex: 5;
+    height: 20px;
+    background: #e0e0e0; /* Gray background */
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .bar span {
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Customize the progress bar colors based on the percentage */
+  .progress:nth-child(1) .bar span {
+    width: 50%;
+    background: #007bff; /* Blue color */
+  }
+  
+  .progress:nth-child(2) .bar span {
+    width: 50%;
+    background: #00b894; /* Teal color */
+  }
+  
+  .progress:nth-child(3) .bar span {
+    width: 20%;
+    background: #e17055; /* Reddish color */
+  }
+  /* Style for the "image" within the "about" section */
+.about .image {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .about .image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #ddd; /* Add a border for styling */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  /* Style for the "about" section */
+  .about .heading {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Style for the "row-1" container */
+  .about .row-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the text content within "row-1" */
+  .about .row-1 .content {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Style for the boxes within "row-1" */
+  .about .row-1 .box {
+    margin: 10px 0;
+  }
+/* Style for the "contact" section */
+.contact {
+    background-color: #f4f4f4; /* Choose your desired background color */
+    padding: 40px;
+  }
+  
+  /* Style for the heading within the "contact" section */
+  .contact .heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the "icons-container" */
+  .contact .iconscontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Style for individual "icons" */
+  .contact .icons {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  /* Style for the icon (e.g., email, phone, map-marker) */
+  .contact .icons i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the form container */
+  .contact .row form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  /* Style for the form input and textarea elements */
+  .contact .row form input,
+  .contact .row form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the "send message" button */
+  .contact .row form input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Choose your desired button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact .row form input[type="submit"]:hover {
+    background-color: #0056b3; /* Change color on hover */
+  }
+/* Style for the "about" section */
+.about {
+    background-color: #f4f4f4; /* Choose your desired background color */
+    padding: 40px;
+  }
+  
+  /* Style for the heading within the "about" section */
+  .about .heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the "row-1" container */
+  .about .row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  /* Style for the image container */
+  .about .row-1 .image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Style for the image itself */
+  .about .row-1 .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for the content container */
+  .about .row-1 .content {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  /* Style for the "box-container" */
+  .about .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  /* Style for individual "box" elements */
+  .about .box {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  /* Style for the "skills" section */
+  .about .row-2 .skills {
+    margin: 20px 0;
+  }
+  
+  /* Style for individual "progress" elements */
+  .about .progress {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the "bar" inside "progress" elements */
+  .about .bar {
+    background-color: #007BFF; /* Choose your desired bar color */
+    height: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Style for the progress percentage text */
+  .about .progress h3 span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style for the progress percentage text inside the "bar" */
+  .about .bar span {
+    display: block;
+    height: 100%;
+    width: 20%; /* Adjust the width to represent the progress */
+    background-color: #0056b3; /* Change the color to indicate progress */
+    border-radius: 5px;
+  }
+/* Style for the map iframe */
+.map {
+    width: 100%; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    border: 1px solid #ccc; /* Add a border with your desired style and color */
+    margin: 20px 0; /* Add some spacing around the map */
+  }
+/* Style for the footer */
+.footer {
+    background-color: #175ba8; /* Change to your desired background color */
+    color: #fff; /* Change to your desired text color */
+    padding: 10px;
+    text-align: center;
+  }
+.footer:hover {
+    background-color: #e17055;
+}
+  /* Style for the link inside the footer */
+  .footer a {
+    color: #fff; /* Change link color */
+    text-decoration: none;
+    margin: 0 10px; /* Add some spacing around links */
+  }
+/* Style for the "Location" heading */
+.loc {
+    background-color: #00c0d9; /* Change to your desired background color */
+    color: #fff; /* Change to your desired text color */
+    padding: 10px;
+    text-align: center;
+    font-size: 24px; /* Change to your desired font size */
+  }
+  
+  /* Additional styles for the "Location" heading */
+  .loc:hover {
+    background-color: #99b8d8; /* Change to a different color on hover if needed */
+  }
+  /* Style for the "Projects" section */
+#service {
+    background-color: #f2f2f2; /* Change to your desired background color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the "Projects" heading */
+  #service .heading {
+    font-size: 24px; /* Change to your desired font size */
+    margin-bottom: 20px;
+  }
+  
+
+  
+  /* Style for project icons */
+  #service .box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0074D9; /* Change to your desired icon color */
+  }
+  
+  /* Additional styles for hover effect on project boxes */
+  #service .box:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+  }
+/* Style for the project box */
+#service .box {
+    background-color: #ffffff; /* Background color for the box */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: background-color 0.3s; /* Add a smooth transition effect on hover */
+  }
+  
+  /* Style for project icons */
+  #service .box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0074D9; /* Color of the icon */
+  }
+  
+  /* Hover effect for the project box */
+  #service .box:hover {
+    background-color: #83a7c7; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #333; Set your desired background color */
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent; /* Add a transparent border initially */
+    border-radius: 5px;
+  }
+  
+  .navbar a:hover {
+    border-color: white;
+    background-color: gold;
+    transform: scaleX(1)
+  } 
+  
+  .homeHeader {
+    color: blue; /* Set the initial color */
+}
+
+.homeHeader:hover {
+    color: red; /* Change the color on mouseover */
+}
